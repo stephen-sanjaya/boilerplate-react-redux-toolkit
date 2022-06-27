@@ -8,6 +8,6 @@ export function createStore(initialState) {
         middleware : [localStorageMiddleware],
         preloadedState :initialState  
     });
-
+    return store;
 }
 
